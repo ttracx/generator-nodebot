@@ -4,6 +4,9 @@
 
 _Work in progress..._
 
+* [Microsoft Bot Framework](https://dev.botframework.com/)
+* [Bot Builder for Node.js](http://docs.botframework.com/builder/node/overview/)
+
 
 ## Installation
 
