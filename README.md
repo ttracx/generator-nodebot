@@ -8,6 +8,13 @@ _Work in progress..._
 * [Bot Builder for Node.js](http://docs.botframework.com/builder/node/overview/)
 
 
+This generator creates template bots based on the sample apps from the official Bot Builder website.
+
+1. The main generator `nodebot` creates a "BotConnectorBot" version.
+1. The sub-generator `nodebot:console` creates a "TextBot" version.
+
+
+
 ## Installation
 
 First, install [Yeoman](http://yeoman.io) and generator-nodebot using [npm](https://www.npmjs.com/) (we assume you have pre-installed [node.js](https://nodejs.org/)).
