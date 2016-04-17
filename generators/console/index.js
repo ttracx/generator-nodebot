@@ -12,7 +12,7 @@ module.exports = yeoman.Base.extend({
     // This makes `appname` a required argument.
     this.argument('appname', { type: String, required: true });
     // And you can then access it later on this way; e.g. CamelCased
-    // this.appName = camelCase(this.appname);
+    // this.appname = _.camelCase(this.appname);
 
     // Next, add your custom code
     // this.option('console'); // This method adds support for a `--console` flag
@@ -42,9 +42,7 @@ module.exports = yeoman.Base.extend({
   },
 
   writing: function () {
-    // console.log('Running: writing 1');
-    // this.sourceRoot();
-    this.fs.copy(
+     this.fs.copy(
       this.templatePath('app.js'),
       this.destinationPath('app.js')
     );
@@ -69,10 +67,9 @@ module.exports = yeoman.Base.extend({
   },
 
   install: function () {
-    // console.log('Running: install');
     // this.installDependencies();
     
-    this.npmInstall(['botbuilder', 'restify'], { 'save': true });
+    this.npmInstall(['botbuilder'], { 'save': true });
 
   }
 });
