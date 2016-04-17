@@ -1,6 +1,6 @@
 {
   "name": "generator-nodebot",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Bot builder template for node.js.",
   "homepage": "",
   "author": {
@@ -14,7 +14,9 @@
   ],
   "main": "generators\\index.js",
   "keywords": [
-    "yeoman-generator", "bot builder", "bot framework"
+    "yeoman-generator",
+    "bot builder",
+    "bot framework"
   ],
   "dependencies": {
     "chalk": "^1.0.0",
